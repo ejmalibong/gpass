@@ -1,0 +1,121 @@
+/* Common styles for autocomplete dropdowns */
+.auto-items {
+  padding-top: 0;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: scroll;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.form-control {
+  text-align: center;
+}
+
+/* Navbar styles */
+.logo {
+  width: 10vh;
+}
+
+.check {
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+/* Sidebar styles */
+.sidebar-open {
+  position: fixed;
+  overflow: hidden;
+  z-index: 10; /* Set a higher z-index to appear above other content */
+}
+
+/* Content styles */
+.outcard {
+  height: 87vh;
+  overflow-x: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.outsidecontainer {
+  height: 100vh;
+
+}
+
+.outsidecontainer::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+.outsidecontainer::-webkit-scrollbar {
+  width: 6px;
+}
+
+.outsidecontainer::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.heading {
+  position: sticky;
+  display: block;
+  height: 10vh;
+  padding-bottom: 5vh;
+  z-index: 10;
+}
+
+
+
+/* Specific styles for each autocomplete dropdown */
+.user_search {
+  position: relative; /* Set the parent container to a relative position to allow absolute positioning of dropdowns */
+}
+
+/* Set a higher z-index for the form controls inside the `.signies` container */
+.signies .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Specific styles for each autocomplete dropdown */
+#auto_prepare,
+#auto_immediate,
+#auto_department,
+#auto_acknowledge {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  width: 100%;
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+.house_img{
+  fill: antiquewhite;
+}
+
+.toast-container{
+  overflow: auto;
+  max-height: 100vh;
+}
+.form-control, .form-select{
+  border-radius: 0; 
+}
+.button{
+  border-radius: 20px; 
+}

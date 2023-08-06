@@ -1,0 +1,39 @@
+.sidebar-open{
+    position:fixed;
+    overflow: hidden;
+  }
+.dropdown{
+  position: static;
+  z-index: 2;
+}
+.table_id{
+  display:grid;
+}
+
+.house-container {
+  padding-left: 1.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.button-container {
+  height: 7vh;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.btnstyle {
+  height: 5vh;
+  width: 10vw;
+  margin-right: 1vw;
+}
+.remstyle {
+  height: 5vh;
+  width: 20vw;
+  justify-self: end;
+}
+td{
+  padding: 0%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
